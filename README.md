@@ -30,6 +30,7 @@ The information and materials available on this website are provided by local el
 
 
 <h2>Our Process:</h2>
+
 1. Extraction:
     First, we gathered the voter data from the 3 states we chose and discussed the similarities and differences observed in the keys and values of those datasets, including forming a strategy around how to transform them for the smoothest possible joining further along in the process.  Based on these findings, we chose common values for our datasets to focus on, including: 
 
