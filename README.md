@@ -8,9 +8,9 @@ Group repository for Project 2, Data Analytics &amp; Visualization
 
 <b>Our project code and resources can be found here:  https://github.com/a-barbera/Project_2_ETL_Challenge </b>
 
-<h1>Voter Aggregation</h1>
+# Voter Aggregation
 
-# Project Overview and Resources:
+<h2>Project Overview and Resources:</h2>
 
 State level documentation of voter registration information from Florida, Georgia and North Carolina will be cleaned and standardized across the states. “Baseline” information will be identified across all three states as well as data that is better documented per state. This information will be cleaned, normalized, and then entered into a SQL database. 
 
@@ -29,8 +29,11 @@ Voter History Files | Georgia Secretary of State
 The information and materials available on this website are provided by local elections officials as a service to the public and intended to be as accurate as possible. If the generated list appears to be missing any information regarding qualified candidates, please visit http://elections.sos.ga.gov/Elections/countyelectionoffices.do to locate the contact information for the appropriate elections office to report the issue. This list will not include anyone who has qualified to run in a municipal general or special election unless the city contracts with a county to conduct qualifying of candidates on the city's behalf.
 
 
-# Our Process:
+<h2>Our Process:</h2>
 1. Extraction:
     First, we gathered the voter data from the 3 states we chose and discussed the similarities and differences observed in the keys and values of those datasets, including forming a strategy around how to transform them for the smoothest possible joining further along in the process.  Based on these findings, we chose common values for our datasets to focus on, including: 
 
 <b>County Name, State, Party, Race_Code, Ethnic_Code, Total_Voters, Election_Date</b>
+
+2. Transformation:
+    After these preliminary decisions were made, we then read these documents into Jupyter Notebooks and, using pandas, created dataframes we could then futher manipulate using python code.  We then filtered the dataframes separately, choosing the columns predetermined to be of value in the extraction process, making sure the datatypes of each were appropriate and consistent with the others, and renamed some keys and values to ensure cohesive value representation across all datasets. 
