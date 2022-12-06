@@ -34,7 +34,7 @@ The information and materials available on this website are provided by local el
 1. Extraction:
     First, we gathered the voter data from the 3 states we chose and discussed the similarities and differences observed in the keys and values of those datasets, including forming a strategy around how to transform them for the smoothest possible joining further along in the process.  Based on these findings, we chose common values for our datasets to focus on, including: 
 
-<b>County Name, State, Party, Race_Code, Ethnic_Code, Total_Voters, Election_Date</b>
+<b>County_Name, State, Party, Race_Code, Ethnic_Code, Total_Voters, Election_Date</b>
 
 2. Transformation:
     After these preliminary decisions were made, we then read these documents into Jupyter Notebooks and, using pandas, created dataframes we could then futher manipulate using python code.  We then filtered the dataframes separately, choosing the columns predetermined to be of value in the extraction process, making sure the datatypes of each were appropriate and consistent with the others, and renamed some keys and values to ensure cohesive value representation across all datasets. 
