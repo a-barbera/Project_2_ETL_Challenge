@@ -31,12 +31,12 @@ The information and materials available on this website are provided by local el
 
 <h2>Our Process:</h2>
 
-![flowchart](flowchart.png)
+![flowchart](NC_Images/flowchart.png)
 
 1. Extraction:
     First, we gathered the voter data from the 3 states we chose and discussed the similarities and differences observed in the keys and values of those datasets, including forming a strategy around how to transform them for the smoothest possible joining further along in the process.  Based on these findings, we chose common values for our datasets to focus on, including: 
 
-<b>County_Name, State, Party, Race_Code, Ethnic_Code, Total_Voters, Election_Date</b>
+<b>County, State, Party, Racial Demographics, and Total Votes</b>
 
 2. Transformation:
     After these preliminary decisions were made, we then read two of these documents into Jupyter Notebooks and, using pandas, created dataframes we could then futher manipulate using python code.  We then filtered the dataframes separately, choosing the columns predetermined to be of value in the extraction process, making sure the datatypes of each were appropriate and consistent with the others, and transformed some keys and values to ensure cohesive, standardized value representation across all datasets.  These dataframes were then saved to SQL databases as tables.
@@ -49,4 +49,4 @@ The information and materials available on this website are provided by local el
 4. Application Uses:
     The differing documentation concerning voter race and ethnicity by each state was unexpected. One state did not collect it at all. There are several state resources that publish voter information. All these resources appear to collect different data. Cleaning/Transforming this data and giving each state its own table, populated by information published by the state itself, would allow users to see how reported information differs by state. This could be of further interest over time or after a change in political parties at the state level. Users could examine if a difference in party ideology impacts the information states publish.
 
-![ERD](QuickDBD-SQL_challenge_ERD.png)
+![ERD](NC_Images/QuickDBD-SQL%20challenge%20ERD.png)
