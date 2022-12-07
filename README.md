@@ -44,9 +44,9 @@ The information and materials available on this website are provided by local el
     The third dataset was cleaned and transformed using PostgreSQL and PGAdmin in the same manner, in order to demonstrate an ability to use SQL programming to clean and transform data.  
 
 3. Load:
-
+    Each state tracked different information or stored information in a vastly different manner, especially when pertaining to race and ethnicity. Data common to all states includes political party and vote numbers. This information can be ‘stacked’ using a SQL Union if further transformation took place. Due to time constants, it was decided, for the purposes of this project, to create vote totals for each political party per state and create a SQL view where these totals could be viewed for all three states. The SQL used to create this view will is documented below.
 
 4. Application Uses:
-    TBD
+    The differing documentation concerning voter race and ethnicity by each state was unexpected. One state did not collect it at all. There are several state resources that publish voter information. All these resources appear to collect different data. Cleaning/Transforming this data and giving each state its own table, populated by information published by the state itself, would allow users to see how reported information differs by state. This could be of further interest over time or after a change in political parties at the state level. Users could examine if a difference in party ideology impacts the information states publish.
 
 ![ERD](QuickDBD-SQL_challenge_ERD.png)
