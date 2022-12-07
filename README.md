@@ -47,4 +47,6 @@ The information and materials available on this website are provided by local el
 
 
 4. Application Uses:
-![ERD](QuickDBD-SQL challenge ERD.png)
+    TBD
+
+![ERD](QuickDBD-SQL_challenge_ERD.png)
