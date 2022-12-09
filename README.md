@@ -67,5 +67,6 @@ The information and materials available on this website are provided by local el
     The differing documentation concerning voter race and ethnicity by each state was unexpected. One state did not collect it at all. There are several state resources that publish voter information. All these resources appear to collect different data. Cleaning/Transforming this data and giving each state its own table, populated by information published by the state itself, would allow users to see how reported information differs by state. This could be of further interest over time or after a change in political parties at the state level. Users could examine if a difference in party ideology impacts the information states publish.
 <br>
 
+
 ![postgres_view](NC_Images/PGA_view.png)
 ![postgres_view](NC_Images/PGA_view2.png)
