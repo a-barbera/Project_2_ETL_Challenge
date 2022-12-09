@@ -1,0 +1,7 @@
+In order to run the georgia_vote_schema the data imported to the tables are the following:
+
+georgia: 36270.txt
+
+counties: County_Number_List(1).csv
+
+The transformation code will run seamlessly from there to created the data within PostgreSQL.
