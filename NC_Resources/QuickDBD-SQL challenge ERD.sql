@@ -48,7 +48,6 @@ CREATE TABLE "FL_Voters" (
     "Multi" varchar(50)   NOT NULL,
     "Unknown" varchar(50)   NOT NULL,
     "Total_Voters" int   NOT NULL,
-    "Election_Date" date   NOT NULL,
     "State" varchar(50)   NOT NULL,
     CONSTRAINT "pk_FL_Voters" PRIMARY KEY (
         "id"
