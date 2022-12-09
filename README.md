@@ -8,6 +8,8 @@ Group repository for Project 2, Data Analytics &amp; Visualization
 
 <b>Our project code and resources can be found here:  https://github.com/a-barbera/Project_2_ETL_Challenge </b>
 
+In order to repeat our process, please refer to the folder "Files_to_Run" for the python code and sql schema files necessary.
+
 <b>Our project report, which contains the information below, can be found here: https://docs.google.com/document/d/1YgUe0VId4TOvE90VQPkQg-IZkdX_sA7_XXheLVe69ws/edit?usp=share_link</b>
 
 # Voter Aggregation
